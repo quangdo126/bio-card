@@ -93,6 +93,7 @@ body {
     cursor: pointer;
     transform-style: preserve-3d;
     transition: transform 0.1s ease-out;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .card-inner {
