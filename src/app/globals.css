@@ -5,9 +5,9 @@
     --bg-card: #1a1a1a;
     --text-primary: #ffffff;
     --text-secondary: #a0a0a0;
-    --accent-gold: #c9a962;
+    --accent-gold: #3fcf8e;
     --accent-silver: #8a8a8a;
-    --glow-primary: rgba(201, 169, 98, 0.3);
+    --glow-primary: rgba(63, 207, 142, 0.3);
     --glow-secondary: rgba(255, 255, 255, 0.1);
 
     /* Social Colors */
@@ -245,8 +245,8 @@ body {
 }
 
 .tech-icon-sm:hover {
-    /* Màu --accent-gold (#c9a962) khi hover */
-    filter: brightness(0) saturate(100%) invert(72%) sepia(26%) saturate(567%) hue-rotate(11deg) brightness(93%) contrast(87%);
+    /* Màu --accent-gold (#3fcf8e) khi hover */
+    filter: brightness(0) saturate(100%) invert(76%) sepia(42%) saturate(552%) hue-rotate(103deg) brightness(92%) contrast(91%);
     opacity: 1;
     transform: scale(1.2);
 }
@@ -439,7 +439,7 @@ body {
 .card-chip {
     width: 50px;
     height: 38px;
-    background: linear-gradient(145deg, #d4b872 0%, #c9a962 40%, #b8963e 100%);
+    background: linear-gradient(145deg, #5ee6a8 0%, #3fcf8e 40%, #2db876 100%);
     border-radius: 6px;
     position: relative;
     overflow: hidden;
